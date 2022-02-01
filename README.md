@@ -26,6 +26,9 @@ export default props =>
 <div className="display">{props.value}</div>
 ```
 
+
+Os dois trechos de código acima descreve os componentes da Calculadora.
+
 ```Jsx
 const initialState = {
     displayValue: '0',
@@ -35,6 +38,7 @@ const initialState = {
     current: 0
 }
 ```
+A variável de estado da calculadora.
 
 ```Jsx
   this.setState({...initialState})
@@ -91,6 +95,8 @@ const initialState = {
     }
 ```
 
+Já o código acima trabalha a lógica da calculadora com algumas verificações de segurança.
+
 
 ```Jsx
     render(){
@@ -124,7 +130,7 @@ const initialState = {
 
 }
 ```
-
+A função Render da calculadora e a utilização/distribuiç de seus componentes.
 
 
 https://webcalculadorareact.netlify.app/
